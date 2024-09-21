@@ -1,0 +1,17 @@
+.titulo-principal{
+    color: #125E86;
+    text-align:center;
+   /*  border-bottom: 1px solid #aaa; */
+    padding-top: .5rem;
+}
+
+.galeria__productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items:baseline;
+    width: 80%;
+    border-radius: 1rem;
+    box-shadow: 0px -2px 36px -16px #125E86;
+}

@@ -1,0 +1,148 @@
+.nav-ecomerce{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #125E86;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    /* margin: 0;
+    padding: 0; */
+    flex-wrap:wrap;
+    /* width: 100%; */
+}
+.nav-ecomerce .nav-ecomerce__contenedor-logo{
+    position: relative;
+    width: 5rem;
+}
+.nav-ecomerce .nav-ecomerce__contenedor-logo a img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.contenedor-logo__relleno{
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+    width: 90%;
+    background-color: white;
+    animation-name: relleno-liquido;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.nav-ecomerce .nav-ecomerce__enlaces{
+    display: flex;
+    box-sizing: border-box;
+    margin: .5rem;
+    padding: 0;
+}
+.nav-ecomerce__enlaces .enlaces__item{
+    color: white;
+    list-style: none;
+    margin: .5rem;
+    justify-content: center;
+    border: 1px solid white;
+    width: 100%;
+    color: white;
+}
+.nav-ecomerce .nav-ecomerce__enlaces .nav-ecomerce__enlaces{
+    color: white;
+    list-style: none;
+}
+.nav-ecomerce .nav-ecomerce__enlaces .nav-ecomerce__enlaces a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-ecomerce .carrito__nav-ecomerce{
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    box-sizing: border-box;
+
+}
+.nav-ecomerce .carrito__nav-ecomerce img{
+    width: 100%;
+}
+.nav-ecomerce .carrito__nav-ecomerce span{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 9px;
+    padding: 3px;
+    text-align: center;    
+}
+.nav-ecomerce .nav-ecomerce__btn-menu{
+    background-color: #125E86;
+    border: none;
+    display: none;
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    width: 2.5rem;
+}
+.nav-ecomerce .nav-ecomerce__btn-menu img{
+    width: 100%;
+}
+/* .nav-ecomerce .nav-ecomerce__btn-menu img{
+    back
+} */
+@keyframes relleno-liquido{
+    0%{
+        height: 10%;
+        width: 2%;
+        top: 0;
+        right: 50%;
+    }
+    50%{
+        height: 50%;
+        width: 25%;
+        top: 0;
+        right: 25%;
+    }
+    100%{
+        top: 0;
+        right:0;
+        height: 90%;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 427px) and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 427px){
+    /* .nav-ecomerce{
+        justify-content:inherit;
+        justify-content:end;
+    }
+    .nav-ecomerce .nav-ecomerce__contenedor-logo{
+        order: -1;
+    } */
+    .nav-ecomerce .nav-ecomerce__enlaces{
+        display: none;
+    }
+    .nav-ecomerce .carrito__nav-ecomerce{
+        display: none;
+    }
+    .nav-ecomerce .nav-ecomerce__btn-menu{
+        display: block;
+        text-align: right;
+}
