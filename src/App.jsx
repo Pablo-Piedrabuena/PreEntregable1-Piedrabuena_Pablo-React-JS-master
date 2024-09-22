@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar/NavBar.jsx"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer.jsx"
 
 const links = [
-  { href: '/', label: 'Home' },
+  { href: '/', label: 'Inicio' },
   { href: '/productos.html', label: 'Productos' },
   { href: '/contacto.html', label: 'Contacto' },
 ];
