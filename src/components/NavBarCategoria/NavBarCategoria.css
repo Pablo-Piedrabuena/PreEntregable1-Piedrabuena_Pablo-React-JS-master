@@ -1,0 +1,35 @@
+.section-filtro{
+    align-items: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+.section-filtro nav{
+    margin: auto;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    /* display: flex; */
+}
+.section-filtro nav .navproductos{
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.section-filtro nav .navproductos .navproductos__item{
+    margin-bottom: 0;
+    margin: 25px;
+    margin-bottom: 0;
+}
+.section-filtro nav .navproductos .navproductos__item a{
+    color:#135D87;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.elemento-seleccionado{
+    border-bottom: 2px solid #135D87;
+}

@@ -1,0 +1,121 @@
+.itemDetailContainer{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    transition: all 3s ease-in-out;
+}
+.agregarProducto-Carrito__ConetenedorImagen {
+    background-color: #E6E6E6;
+    width: 45%;
+    margin: 2rem 0;
+    padding: 0;
+    background-color: #EDEDED;
+}
+
+.agregarProducto-Carrito__ConetenedorImagen img {
+    margin: auto;
+    width: 90%;
+    display: block;
+}
+
+.agregarProducto-Carrito__Conetenedorform {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    width: 25%;
+    margin: 2rem 0;
+    border-left: 1px solid #85929E;
+    padding-left: 1rem;
+}
+
+.agregarProducto-Carrito__Conetenedorform .Conetenedorform__boton-salir {
+    margin: 0;
+    position: absolute;
+    top: 13px;
+    right: 3px;
+    left: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #135D87;
+    color: #E6E6E6;
+}
+
+.agregarProducto-Carrito__Conetenedorform h3 {
+    width: 100%;
+    margin-top: 5rem;
+    display: block;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #135D87;
+    user-select: none;
+}
+
+.agregarProducto-Carrito__Conetenedorform .precio {
+    margin-top: 0;
+    display: block;
+    width: 50%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #135D87;
+    user-select: none;
+}
+
+.agregarProducto-Carrito__Conetenedorform p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #34495E;
+    user-select: none;
+}
+
+.agregarProducto-Carrito__Conetenedorform .cantidad-disponible {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.agregarProducto-Carrito__Conetenedorform .cantidad-comprar {
+    display: flex;
+}
+
+.agregarProducto-Carrito__Conetenedorform .cantidad-comprar label {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #34495E;
+    user-select: none;
+    margin-right: 1rem;
+}
+
+.agregarProducto-Carrito__Conetenedorform .cantidad-comprar input {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #34495E;
+    border: 1px solid #135D87;
+    width: 5rem;
+    color: #34495E;
+    text-align: center;
+}
+
+.agregarProducto-Carrito__Conetenedorform .cantidad-comprar input:focus {
+    outline: 1px solid #135D87;
+}
+
+.agregarProducto-Carrito__Conetenedorform .cantidad-comprar .Conetenedorform__agregar-carrito {
+    text-align: center;
+    align-content: center;
+    width: 10rem;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #135D87;
+    color: #E6E6E6;
+    height: 2.5rem;
+    margin: 12rem;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+}

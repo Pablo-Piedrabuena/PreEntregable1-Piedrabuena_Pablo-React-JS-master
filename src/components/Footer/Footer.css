@@ -1,0 +1,84 @@
+.contenedor-footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #135D87;
+    width: 100%;
+}
+.contenedor-footer .contenedor-footer__columna {
+    flex: 1; /* Cada columna ocupa 1/3 del ancho disponible */
+    padding: 0.5rem 0.5rem;
+}
+.contenedor-footer .contenedor-footer__columna .email{
+    display: flex;
+}
+.contenedor-footer .contenedor-footer__columna h3{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2 rem;
+    font-weight: bold;
+    color:#E6E6E6;
+}
+.contenedor-footer .contenedor-footer__columna p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1 rem;
+    font-weight: 400;
+    color: #E6E6E6;
+}
+.contenedor-footer .contenedor-footer__columna a{
+    /* display: block; */
+    font-family: 'Barlow', sans-serif;
+    font-size: 1 rem;
+    font-weight: 400;
+    color: #E6E6E6;
+}
+.contenedor-footer .contenedor-footer__columna a img {
+    /* display: inline; */
+    object-fit:cover;
+    width: 2rem;
+    margin-right: 1rem;
+}
+.contenedor-footer .columna__parrafo{
+    display: block;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1 rem;
+    font-weight: 400;
+    color: #E6E6E6;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px){
+    .contenedor-footer {
+        flex-direction: column;
+    }
+    .contenedor-footer .contenedor-footer__columna {
+        flex: 1; /* Cada columna ocupa todo el ancho disponible */
+        border-bottom: 1px solid #E6E6E6;
+        text-align: center;
+    }
+    .contenedor-footer .contenedor-footer__columna a{
+        display: block;
+    }
+    .contenedor-footer .contenedor-footer__columna a:not(.email){
+        display: inline;
+    }
+    .contenedor-footer .columna__parrafo{
+        padding-bottom: 0;
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 427px){
+    .contenedor-footer {
+        flex-direction: column;
+    }
+    .contenedor-footer__columna {
+        flex: 1; /* Cada columna ocupa todo el ancho disponible */
+        border-bottom: 1px solid #E6E6E6;
+        text-align: center;
+    }
+    .contenedor-footer__columna a{
+        display: block;
+        margin: 1rem;
+    }
+}

@@ -7,7 +7,7 @@ const NavBar =({ logo, links })=>{
         <>
             <nav className="nav-ecomerce">
                 <div className="nav-ecomerce__contenedor-logo">
-                    <a href="index.html" tabindex="-1">
+                    <a href="index" tabIndex={-1}>
                         <img src={logo} alt="Logo"/>
                     </a>
                     <div className="contenedor-logo__relleno"></div>

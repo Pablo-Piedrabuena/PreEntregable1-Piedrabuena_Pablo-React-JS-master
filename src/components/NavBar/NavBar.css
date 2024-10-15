@@ -38,6 +38,9 @@
     box-sizing: border-box;
     margin: .5rem;
     padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1 rem;
+    font-weight: 400;
 }
 .nav-ecomerce__enlaces .enlaces__item{
     color: white;
